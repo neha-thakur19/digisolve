@@ -1,0 +1,201 @@
+
+/* larger tablets to smaller laptop screens */
+@media screen and (max-width: 1200px) {
+	html, body {
+		font-size: 14px;
+	}
+
+	.carousel-content h1 {
+		font-size: 3rem; /* reduces header banner size */
+	}
+
+	/* fixes carousel next and prev position */
+	.owl-services .owl-nav button.owl-prev {
+		top: 45%;
+		margin-left: -45px;
+		font-size: 2rem;
+	}
+
+	.owl-services .owl-nav button.owl-next {
+		top: 45%;
+		right: -45px;
+		font-size: 2rem;
+	}
+
+	/* increases top margin on partner section */
+	#partner-section {
+		margin-top: -80px;
+	}
+
+	/* reduces padding on page banner */
+	#page-middle-banner .page-opacity {
+		padding: 120px 0 120px;
+	}
+
+	/* reduces font size for page banner */
+	#page-middle-banner h3 {
+		font-size: 2rem;
+	}
+
+	footer .menu ul li a, footer .services ul li a {
+		line-height: 1.2;
+	}
+}
+
+/* smaller tablets to larger tablet screens */
+@media screen and (max-width: 1024px) {
+	.carousel-content h1 {
+		font-size: 2.5rem; /* reduces header banner size */
+	}
+
+	/* reduces padding in prices section */
+	.pricing-item .price-body ul {
+		padding-left: 2%;
+	}
+
+	.check-icon {
+		padding: 10px;
+	}
+}
+
+/* larger phones to smaller tablets screens */
+@media screen and (max-width: 767px) {
+	html, body {
+		font-size: 12px;
+	}
+
+	header.main-header .navbar .navbar-collapse {
+		padding: 15px;
+		background: rgba(0, 0, 0, 1);
+		margin-top: 15px;
+	}
+
+	/* adds margin bottom on about img */
+	div.about-box {
+		margin-bottom: 30px;
+	}
+
+	/* fixes carousel next and prev position */
+	.owl-testimonials .owl-nav button.owl-prev {
+		margin-left: -40px;
+	}
+
+	.owl-testimonials .owl-nav button.owl-next {
+		right: -20px;
+	}
+
+	/* reduces padding in prices section */
+	.pricing-item .price-body ul {
+		padding-left: 10%;
+	}
+
+	/* reduces font size for page banner */
+	#page-middle-banner h3 {
+		font-size: 1.5rem;
+	}
+
+	/* adds margin on bottom for team member items */
+	#team-section .team-item {
+		margin-bottom: 30px;
+	}
+}
+
+/* smaller to larger mobile phones screens */
+@media screen and (max-width: 480px) {
+	html, body {
+		font-size: 11px;
+	}
+
+	.site-section {
+		padding: 3em 0;
+	}
+
+	/* reduce image width in about box */
+	div.about-box-img {
+		width: 90%;
+		margin-bottom: 10%;
+		margin-top: 0;
+	}
+
+	div.about-box {
+		margin-left: 5px;
+	}
+
+	/* reduces card height and width in services */
+	.card {
+		max-width: 300px;
+		min-height: 450px;
+	}
+
+	/* fixes carousel next and prev position */
+	.owl-services .owl-nav button.owl-prev {
+		margin-left: -1px;
+	}
+
+	.owl-services .owl-nav button.owl-next {
+		right: -1px;
+	}
+
+	.owl-testimonials .owl-nav button.owl-prev {
+		margin-left: -25px;
+	}
+
+	.owl-testimonials .owl-nav button.owl-next {
+		right: -10px;
+	}
+
+	/* reduces font-size */
+	.owl-testimonials .item blockquote {
+		font-size: 1.2rem;
+	}
+
+	/* increases top margin and img width on partner section */
+	#partner-section {
+		margin-top: -10px;
+	}
+
+	.owl-partner img {
+		max-width: 80%;
+	}
+
+	/* reduces padding on page banner */
+	#page-middle-banner .page-opacity {
+		padding: 90px 0 90px;
+	}
+
+	footer {
+		padding: 50px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
