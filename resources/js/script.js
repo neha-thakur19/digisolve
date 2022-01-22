@@ -85,6 +85,10 @@ $(document).ready(function() {
 	$(".owl-testimonials").owlCarousel();
 	$(".owl-partner").owlCarousel();
 	activeLinkControll();
+
+	$("li.nav-item").on('click',function(){
+		$('.collapse').collapse('hide');
+	});
 });
 
 $(window).scroll(function() {

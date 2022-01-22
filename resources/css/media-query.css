@@ -58,16 +58,23 @@
 	}
 }
 
-/* larger phones to smaller tablets screens */
-@media screen and (max-width: 767px) {
-	html, body {
-		font-size: 12px;
-	}
-
+@media screen and (max-width: 992px) {
 	header.main-header .navbar .navbar-collapse {
 		padding: 15px;
-		background: rgba(0, 0, 0, 1);
+		background-color: rgba(0, 0, 0, 1);
 		margin-top: 15px;
+	}
+
+	#team-section .team-item img {
+		height: 680px;
+		margin-bottom: 30px;
+	}
+}
+
+/* larger phones to smaller tablets screens */
+@media screen and (max-width: 767px) {
+	.carousel-content h1 {
+		font-size: 2rem;
 	}
 
 	/* adds margin bottom on about img */
@@ -97,6 +104,17 @@
 	/* adds margin on bottom for team member items */
 	#team-section .team-item {
 		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	/* fixes carousel next and prev position */
+	.owl-services .owl-nav button.owl-prev {
+		margin-left: -3px;
+	}
+
+	.owl-services .owl-nav button.owl-next {
+		right: -3px;
 	}
 }
 
@@ -156,6 +174,11 @@
 
 	.owl-partner img {
 		max-width: 80%;
+	}
+
+	/* reduces image height in teams section */
+	#team-section .team-item img {
+		height: 580px;
 	}
 
 	/* reduces padding on page banner */
