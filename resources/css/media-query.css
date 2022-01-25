@@ -1,3 +1,9 @@
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+	#page-middle-banner {
+		background-attachment: scroll;
+	}
+}
 
 /* larger tablets to smaller laptop screens */
 @media screen and (max-width: 1200px) {
